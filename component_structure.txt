@@ -1,0 +1,32 @@
+App
+    Header --> Header.jsx
+        Logo
+        Nav
+            Link*3
+    Main --> Main.jsx
+        ChristmasForm
+        ChristmasList --> <section>
+            ChristmasWish ---> <article> h3, p, img, a + opciones para añadir/borrar item
+        SideInfo --> <aside>
+            SideItem --> <section>
+
+useState memomoria momentaneo del componente del App
+
+props propiedades o atributos del padre(app) a componentes
+
+App
+    Header --> Header.jsx
+        Logo
+        Nav
+            Link*3
+    Main --> Main.jsx
+        Home
+        ChristmasContainer
+            ChristmasForm
+            ChristmasList --> <section>
+                ChristmasWish ---> <article> h3, p, img, a + opciones para añadir/borrar item
+            SideInfo --> <aside>
+                SideItem --> <section>
+
+
+npx crcf components/Main/ChristmasCourse -j -f
